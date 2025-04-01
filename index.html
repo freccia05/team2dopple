@@ -66,7 +66,7 @@
             flex-direction: column;
             color: white;
             position: relative;
-            overflow: hidden;
+            overflow: hidden !important;
         }
         .div1::before {
             content: "";
@@ -75,9 +75,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('hansdahl4.jpg') center/cover;
-            filter:brightness(20%);
+            background: url('hansdahl4.jpg') center/cover repeat-y;
+            filter:brightness(40%);
             z-index: -1; 
+            overflow: hidden !important;
         }
         .intro{
             font-size: 36px;
@@ -133,7 +134,7 @@
         </nav>
     </header>
     <br>
-    <div class="div1">
+    <div class="div1" style="overflow:hidden;">
         <h1  class="intro">
             Here, you'll find my mini group projects for the time being...
         </h1>
@@ -162,6 +163,11 @@
                 CollegeLife Recipes
             </button>
             <a href="CollegeLife RecipesPresentation1.pptx" download="CollegeLifePreso1" style="font-size: 20px;"class="button1">Download the Slides for Presentation 1</a>
+        </span>
+        <span>
+            <h1  style="margin-bottom:120px;">
+                
+            </h1>
         </span>
 
     </div>
